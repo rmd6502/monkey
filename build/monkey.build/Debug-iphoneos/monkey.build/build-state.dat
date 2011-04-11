@@ -1,0 +1,563 @@
+Tmonkey
+v7
+r0
+t324152711.467831
+cCheck dependencies
+cCpResource build/Debug-iphoneos/monkey.app/ResourceRules.plist /xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/Info.plist monkey-Info.plist
+cCompileXIB /Users/rmd6502/Documents/monkey/MainWindow.xib
+cCompileXIB /Users/rmd6502/Documents/monkey/monkeyViewController.xib
+cCopyPNGFile /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/monkey_toy.png monkey_toy.png
+cCopyPNGFile /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/monkey_toy_57.png monkey_toy_57.png
+cCopyPNGFile /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/monkey_toy_114.png monkey_toy_114.png
+cCopyPNGFile /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/title.png title.png
+cCopyPNGFile /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/title@2x.png title@2x.png
+cCpResource build/Debug-iphoneos/monkey.app/IMG_0035.JPG IMG_0035.JPG
+cCpResource build/Debug-iphoneos/monkey.app/buzzer.mp3 buzzer.mp3
+cCpResource build/Debug-iphoneos/monkey.app/win.m4a win.m4a
+cProcessPCH /var/folders/DX/DXvlE9qRER870IIsMrLY8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/monkey_Prefix-aqqukfzcgjuwwzcltqiwwbnzspln/monkey_Prefix.pch.gch monkey_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/monkey.build/Debug-iphoneos/monkey.build/Objects-normal/armv7/main.o /Users/rmd6502/Documents/monkey/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/monkey.build/Debug-iphoneos/monkey.build/Objects-normal/armv7/monkeyAppDelegate.o /Users/rmd6502/Documents/monkey/Classes/monkeyAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/monkey.build/Debug-iphoneos/monkey.build/Objects-normal/armv7/monkeyViewController.o /Users/rmd6502/Documents/monkey/Classes/monkeyViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/monkey normal armv7
+cGenerateDSYMFile /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app.dSYM /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/monkey
+cProcessProductPackaging "/Users/rmd6502/Library/MobileDevice/Provisioning Profiles/4DF075C5-2921-42FD-ACCF-21AFB45606DC.mobileprovision" /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/embedded.mobileprovision
+cTouch /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app
+cProcessProductPackaging /xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/monkey.xcent
+cCodeSign /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app
+
+N/Users/rmd6502/Documents/monkey/05 Shock the Monkey.m4a
+c000000004DA1F549000000000001F80A
+t1302459721
+s129034
+
+N/Users/rmd6502/Documents/monkey/Classes/monkeyAppDelegate.h
+c000000004DA1440400000000000001CD
+t1302414340
+s461
+i<UIKit/UIKit.h>
+
+N/Users/rmd6502/Documents/monkey/Classes/monkeyAppDelegate.m
+c000000004DA144040000000000000A99
+t1302414340
+s2713
+i"monkeyAppDelegate.h"
+i"monkeyViewController.h"
+
+N/Users/rmd6502/Documents/monkey/Classes/monkeyViewController.h
+c000000004DA1F24C00000000000002B6
+t1302458956
+s694
+i<UIKit/UIKit.h>
+i<AVFoundation/AVFoundation.h>
+
+N/Users/rmd6502/Documents/monkey/Classes/monkeyViewController.m
+c000000004DA1F60600000000000016F1
+t1302459910
+s5873
+i<QuartzCore/QuartzCore.h>
+i"monkeyViewController.h"
+
+N/Users/rmd6502/Documents/monkey/IMG_0035.JPG
+c000000004DA1ECFC000000000000E616
+t1302457596
+s58902
+
+N/Users/rmd6502/Documents/monkey/MainWindow.xib
+c000000004DA144040000000000004E1D
+t1302414340
+s19997
+
+N/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app
+t1302459911
+s646
+
+N/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app.dSYM
+t1302459911
+s102
+
+N/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/05 Shock the Monkey.m4a
+t2
+s0
+
+N/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/IMG_0035.JPG
+t1302458841
+s58902
+
+N/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/Info.plist
+t1302452228
+s944
+
+N/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/MainWindow.nib
+t1302447476
+s1679
+
+N/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/PkgInfo
+t1302452228
+s8
+
+N/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/ResourceRules.plist
+t1302447475
+s485
+
+N/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/buzzer.mp3
+t1302458841
+s26139
+
+N/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/embedded.mobileprovision
+t1302447478
+s20515
+
+N/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/monkey
+t1302459910
+s30436
+
+N/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/monkeyViewController.nib
+t1302458842
+s7560
+
+N/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/monkey_toy.png
+t1302447477
+s102967
+
+N/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/monkey_toy_114.png
+t1302451753
+s14590
+
+N/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/monkey_toy_57.png
+t1302451753
+s5221
+
+N/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/title.png
+t1302452228
+s46502
+
+N/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/title@2x.png
+t1302452228
+s112535
+
+N/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/win.m4a
+t1302459790
+s129034
+
+N/Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/Objects-normal/armv6/monkey
+t2
+s0
+
+N/Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/Objects-normal/armv6/monkey.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/Objects-normal/armv6/monkeyAppDelegate.o
+t2
+s0
+
+N/Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/Objects-normal/armv6/monkeyViewController.o
+t2
+s0
+
+N/Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/Objects-normal/armv7/main.o
+t1302447477
+s6416
+
+N/Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/Objects-normal/armv7/monkey
+t2
+s0
+
+N/Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/Objects-normal/armv7/monkey.LinkFileList
+c000000004DA1C573000000000000015E
+t1302447475
+s350
+
+N/Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/Objects-normal/armv7/monkeyAppDelegate.o
+t1302459790
+s51616
+
+N/Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/Objects-normal/armv7/monkeyViewController.o
+t1302459910
+s62772
+
+N/Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/monkey.xcent
+t1302452228
+s418
+
+N/Users/rmd6502/Documents/monkey/buzzer.mp3
+c000000004DA1ED7D000000000000661B
+t1302457725
+s26139
+
+N/Users/rmd6502/Documents/monkey/main.m
+c000000004DA14404000000000000015C
+t1302414340
+s348
+i<UIKit/UIKit.h>
+
+N/Users/rmd6502/Documents/monkey/monkeyViewController.xib
+c000000004DA1ED35000000000000AA2F
+t1302457653
+s43567
+
+N/Users/rmd6502/Documents/monkey/monkey_Prefix.pch
+c000000004DA1440400000000000000B5
+t1302414340
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/rmd6502/Documents/monkey/monkey_toy.png
+c000000004DA150C9000000000001C705
+t1302417609
+s116485
+
+N/Users/rmd6502/Documents/monkey/monkey_toy_114.png
+c000000004DA1D5FB0000000000003512
+t1302451707
+s13586
+
+N/Users/rmd6502/Documents/monkey/monkey_toy_57.png
+c000000004DA1D5E50000000000001352
+t1302451685
+s4946
+
+N/Users/rmd6502/Documents/monkey/title.png
+c000000004DA1D7A5000000000000B981
+t1302452133
+s47489
+
+N/Users/rmd6502/Documents/monkey/title@2x.png
+c000000004DA1D7B5000000000001B59D
+t1302452149
+s112029
+
+N/Users/rmd6502/Documents/monkey/win.m4a
+c000000004DA1F549000000000001F80A
+t1302459721
+s129034
+
+N/Users/rmd6502/Library/MobileDevice/Provisioning Profiles/4DF075C5-2921-42FD-ACCF-21AFB45606DC.mobileprovision
+c000000004D91B9740000000000005023
+t1301395828
+s20515
+
+N/var/folders/DX/DXvlE9qRER870IIsMrLY8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/monkey_Prefix-aqqukfzcgjuwwzcltqiwwbnzspln/monkey_Prefix.pch.gch
+t1302447477
+s10647452
+
+N/var/folders/DX/DXvlE9qRER870IIsMrLY8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/monkey_Prefix-djslftsgizjqiqdilercnhvmwnno/monkey_Prefix.pch.gch
+t2
+s0
+
+N/xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D5F25270000000000000110
+t1298081063
+s272
+
+N/xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004D5EBED1000000000022E2B0
+t1298054865
+s2286256
+
+N/xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004D5EBEC500000000000007D0
+t1298054853
+s2000
+
+N/xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004D54D49500000000000000C4
+t1297405077
+s196
+
+N/xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004D54D608000000000026CB10
+t1297405448
+s2542352
+
+N/xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Security.framework/Security
+c000000004D54D0A600000000000CDED0
+t1297404070
+s843472
+
+N/xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+Nmonkey-Info.plist
+c000000004DA1D8020000000000000413
+t1302452226
+s1043
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies324152710#324152710#0(259"[BWARN]Code Sign warning: code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer: Robert Diamond (J94M2AVH52)', 'iPhone Developer: Robert Diamond (92Y2FHP25D)' -- 'iPhone Developer: Robert Diamond (J94M2AVH52)' will be used.1(22@251"Code Sign warning: code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer: Robert Diamond (J94M2AVH52)', 'iPhone Developer: Robert Diamond (92Y2FHP25D)' -- 'iPhone Developer: Robert Diamond (J94M2AVH52)' will be used.324152710#18446744073709551615#0#0(1@0"0(0#1#0"8646807008#0"0#
+
+CCodeSign /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app
+s324152711.119517
+e324152711.467793
+r1
+xCodeSign
+x/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app
+lSLF07#2@40"CodeSign build/Debug-iphoneos/monkey.app324152711#324152711#0(0"0(0#0#63"/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app8622677728#617"    cd /Users/rmd6502/Documents/monkey    setenv PATH "/xcode_4.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode_4.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /xcode_4.3/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Robert Diamond (J94M2AVH52)" --resource-rules=/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/ResourceRules.plist --entitlements /Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/monkey.xcent /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app0#
+
+CCompileC build/monkey.build/Debug-iphoneos/monkey.build/Objects-normal/armv6/main.o /Users/rmd6502/Documents/monkey/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/monkey.build/Debug-iphoneos/monkey.build/Objects-normal/armv6/monkeyAppDelegate.o /Users/rmd6502/Documents/monkey/Classes/monkeyAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/monkey.build/Debug-iphoneos/monkey.build/Objects-normal/armv6/monkeyViewController.o /Users/rmd6502/Documents/monkey/Classes/monkeyViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/monkey.build/Debug-iphoneos/monkey.build/Objects-normal/armv7/main.o /Users/rmd6502/Documents/monkey/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s324140277.877973
+e324140277.996331
+r1
+xCompileC
+xbuild/monkey.build/Debug-iphoneos/monkey.build/Objects-normal/armv7/main.o
+x/Users/rmd6502/Documents/monkey/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/rmd6502/Documents/monkey/main.m324140277#324140277#0(0"0(0#0#38"/Users/rmd6502/Documents/monkey/main.m8640880704#1627"    cd /Users/rmd6502/Documents/monkey    setenv LANG en_US.US-ASCII    setenv PATH "/xcode_4.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode_4.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode_4.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/monkey-generated-files.hmap -I/Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/monkey-own-target-headers.hmap -I/Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/monkey-all-target-headers.hmap -iquote /Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/monkey-project-headers.hmap -F/Users/rmd6502/Documents/monkey/build/Debug-iphoneos -I/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/include -I/Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/DerivedSources/armv7 -I/Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/DerivedSources -include /var/folders/DX/DXvlE9qRER870IIsMrLY8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/monkey_Prefix-aqqukfzcgjuwwzcltqiwwbnzspln/monkey_Prefix.pch -c /Users/rmd6502/Documents/monkey/main.m -o /Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/Objects-normal/armv7/main.o0#
+
+CCompileC build/monkey.build/Debug-iphoneos/monkey.build/Objects-normal/armv7/monkeyAppDelegate.o /Users/rmd6502/Documents/monkey/Classes/monkeyAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s324152590.450178
+e324152590.785304
+r1
+xCompileC
+xbuild/monkey.build/Debug-iphoneos/monkey.build/Objects-normal/armv7/monkeyAppDelegate.o
+x/Users/rmd6502/Documents/monkey/Classes/monkeyAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/rmd6502/Documents/monkey/Classes/monkeyAppDelegate.m324152590#324152590#0(0"0(0#0#59"/Users/rmd6502/Documents/monkey/Classes/monkeyAppDelegate.m8645827392#1661"    cd /Users/rmd6502/Documents/monkey    setenv LANG en_US.US-ASCII    setenv PATH "/xcode_4.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode_4.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode_4.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/monkey-generated-files.hmap -I/Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/monkey-own-target-headers.hmap -I/Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/monkey-all-target-headers.hmap -iquote /Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/monkey-project-headers.hmap -F/Users/rmd6502/Documents/monkey/build/Debug-iphoneos -I/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/include -I/Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/DerivedSources/armv7 -I/Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/DerivedSources -include /var/folders/DX/DXvlE9qRER870IIsMrLY8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/monkey_Prefix-aqqukfzcgjuwwzcltqiwwbnzspln/monkey_Prefix.pch -c /Users/rmd6502/Documents/monkey/Classes/monkeyAppDelegate.m -o /Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/Objects-normal/armv7/monkeyAppDelegate.o0#
+
+CCompileC build/monkey.build/Debug-iphoneos/monkey.build/Objects-normal/armv7/monkeyViewController.o /Users/rmd6502/Documents/monkey/Classes/monkeyViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s324152710.685657
+e324152710.911363
+r1
+xCompileC
+xbuild/monkey.build/Debug-iphoneos/monkey.build/Objects-normal/armv7/monkeyViewController.o
+x/Users/rmd6502/Documents/monkey/Classes/monkeyViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/rmd6502/Documents/monkey/Classes/monkeyViewController.m324152710#324152710#0(0"0(0#0#62"/Users/rmd6502/Documents/monkey/Classes/monkeyViewController.m8642062880#1667"    cd /Users/rmd6502/Documents/monkey    setenv LANG en_US.US-ASCII    setenv PATH "/xcode_4.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode_4.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode_4.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/monkey-generated-files.hmap -I/Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/monkey-own-target-headers.hmap -I/Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/monkey-all-target-headers.hmap -iquote /Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/monkey-project-headers.hmap -F/Users/rmd6502/Documents/monkey/build/Debug-iphoneos -I/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/include -I/Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/DerivedSources/armv7 -I/Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/DerivedSources -include /var/folders/DX/DXvlE9qRER870IIsMrLY8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/monkey_Prefix-aqqukfzcgjuwwzcltqiwwbnzspln/monkey_Prefix.pch -c /Users/rmd6502/Documents/monkey/Classes/monkeyViewController.m -o /Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/Objects-normal/armv7/monkeyViewController.o0#
+
+CCompileXIB /Users/rmd6502/Documents/monkey/MainWindow.xib
+s324140275.815328
+e324140276.213814
+r1
+xCompileXIB
+x/Users/rmd6502/Documents/monkey/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib324140275#324140276#0(0"0(0#0#46"/Users/rmd6502/Documents/monkey/MainWindow.xib8640251200#520"    cd /Users/rmd6502/Documents/monkey    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/xcode_4.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode_4.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode_4.3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/MainWindow.nib /Users/rmd6502/Documents/monkey/MainWindow.xib --sdk /xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/rmd6502/Documents/monkey/monkeyViewController.xib
+s324151641.562930
+e324151642.129076
+r1
+xCompileXIB
+x/Users/rmd6502/Documents/monkey/monkeyViewController.xib
+lSLF07#2@35"CompileXIB monkeyViewController.xib324151641#324151642#0(0"0(0#0#56"/Users/rmd6502/Documents/monkey/monkeyViewController.xib8634435040#540"    cd /Users/rmd6502/Documents/monkey    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/xcode_4.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode_4.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode_4.3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/monkeyViewController.nib /Users/rmd6502/Documents/monkey/monkeyViewController.xib --sdk /xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCopyPNGFile /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/monkey_toy.png monkey_toy.png
+s324140276.213903
+e324140277.120134
+r1
+xCopyPNGFile
+x/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/monkey_toy.png
+xmonkey_toy.png
+lSLF07#2@73"CopyPNGFile build/Debug-iphoneos/monkey.app/monkey_toy.png monkey_toy.png324140276#324140277#0(0"0(0#0#46"/Users/rmd6502/Documents/monkey/monkey_toy.png8643080800#446"    cd /Users/rmd6502/Documents/monkey    setenv PATH "/xcode_4.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode_4.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/xcode_4.3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/rmd6502/Documents/monkey/monkey_toy.png /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/monkey_toy.png0#
+
+CCopyPNGFile /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/monkey_toy_114.png monkey_toy_114.png
+s324144553.753200
+e324144553.947175
+r1
+xCopyPNGFile
+x/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/monkey_toy_114.png
+xmonkey_toy_114.png
+lSLF07#2@81"CopyPNGFile build/Debug-iphoneos/monkey.app/monkey_toy_114.png monkey_toy_114.png324144553#324144553#0(0"0(0#0#50"/Users/rmd6502/Documents/monkey/monkey_toy_114.png8653627040#454"    cd /Users/rmd6502/Documents/monkey    setenv PATH "/xcode_4.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode_4.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/xcode_4.3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/rmd6502/Documents/monkey/monkey_toy_114.png /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/monkey_toy_114.png0#
+
+CCopyPNGFile /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/monkey_toy_57.png monkey_toy_57.png
+s324144553.752204
+e324144553.907178
+r1
+xCopyPNGFile
+x/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/monkey_toy_57.png
+xmonkey_toy_57.png
+lSLF07#2@79"CopyPNGFile build/Debug-iphoneos/monkey.app/monkey_toy_57.png monkey_toy_57.png324144553#324144553#0(0"0(0#0#49"/Users/rmd6502/Documents/monkey/monkey_toy_57.png8654269856#452"    cd /Users/rmd6502/Documents/monkey    setenv PATH "/xcode_4.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode_4.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/xcode_4.3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/rmd6502/Documents/monkey/monkey_toy_57.png /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/monkey_toy_57.png0#
+
+CCopyPNGFile /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/title.png title.png
+s324145028.294778
+e324145028.562566
+r1
+xCopyPNGFile
+x/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/title.png
+xtitle.png
+lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/monkey.app/title.png title.png324145028#324145028#0(0"0(0#0#41"/Users/rmd6502/Documents/monkey/title.png8653559520#436"    cd /Users/rmd6502/Documents/monkey    setenv PATH "/xcode_4.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode_4.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/xcode_4.3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/rmd6502/Documents/monkey/title.png /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/title.png0#
+
+CCopyPNGFile /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/title@2x.png title@2x.png
+s324145028.295773
+e324145028.940617
+r1
+xCopyPNGFile
+x/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/title@2x.png
+xtitle@2x.png
+lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/monkey.app/title@2x.png title@2x.png324145028#324145028#0(0"0(0#0#44"/Users/rmd6502/Documents/monkey/title@2x.png8638946464#442"    cd /Users/rmd6502/Documents/monkey    setenv PATH "/xcode_4.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode_4.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/xcode_4.3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/rmd6502/Documents/monkey/title@2x.png /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/title@2x.png0#
+
+CCpResource "build/Debug-iphoneos/monkey.app/05 Shock the Monkey.m4a" "05 Shock the Monkey.m4a"
+r0
+
+CCpResource build/Debug-iphoneos/monkey.app/IMG_0035.JPG IMG_0035.JPG
+s324151641.564361
+e324151641.602609
+r1
+xCpResource
+xbuild/Debug-iphoneos/monkey.app/IMG_0035.JPG
+xIMG_0035.JPG
+lSLF07#2@17"Copy IMG_0035.JPG324151641#324151641#0(0"0(0#0#44"/Users/rmd6502/Documents/monkey/IMG_0035.JPG8612241088#434"    cd /Users/rmd6502/Documents/monkey    setenv PATH "/xcode_4.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode_4.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode_4.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/rmd6502/Documents/monkey/IMG_0035.JPG /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app0#
+
+CCpResource build/Debug-iphoneos/monkey.app/ResourceRules.plist /xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+s324140275.791316
+e324140275.806148
+r1
+xCpResource
+xbuild/Debug-iphoneos/monkey.app/ResourceRules.plist
+x/xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist324140275#324140275#0(0"0(0#0#89"/xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist4913266056747185152#479"    cd /Users/rmd6502/Documents/monkey    setenv PATH "/xcode_4.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode_4.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode_4.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app0#
+
+CCpResource build/Debug-iphoneos/monkey.app/buzzer.mp3 buzzer.mp3
+s324151641.566013
+e324151641.583953
+r1
+xCpResource
+xbuild/Debug-iphoneos/monkey.app/buzzer.mp3
+xbuzzer.mp3
+lSLF07#2@15"Copy buzzer.mp3324151641#324151641#0(0"0(0#0#42"/Users/rmd6502/Documents/monkey/buzzer.mp38609146944#432"    cd /Users/rmd6502/Documents/monkey    setenv PATH "/xcode_4.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode_4.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode_4.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/rmd6502/Documents/monkey/buzzer.mp3 /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app0#
+
+CCpResource build/Debug-iphoneos/monkey.app/win.m4a win.m4a
+s324152590.409185
+e324152590.449860
+r1
+xCpResource
+xbuild/Debug-iphoneos/monkey.app/win.m4a
+xwin.m4a
+lSLF07#2@12"Copy win.m4a324152590#324152590#0(0"0(0#0#39"/Users/rmd6502/Documents/monkey/win.m4a8641813696#429"    cd /Users/rmd6502/Documents/monkey    setenv PATH "/xcode_4.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode_4.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode_4.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/rmd6502/Documents/monkey/win.m4a /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app0#
+
+CCreateUniversalBinary /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/monkey normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app.dSYM /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/monkey
+s324152710.944340
+e324152711.116787
+r1
+xGenerateDSYMFile
+x/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app.dSYM
+x/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/monkey
+lSLF07#2@92"GenerateDSYMFile build/Debug-iphoneos/monkey.app.dSYM build/Debug-iphoneos/monkey.app/monkey324152710#324152711#0(0"0(0#0#70"/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/monkey8646743840#338"    cd /Users/rmd6502/Documents/monkey    setenv PATH "/xcode_4.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode_4.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode_4.3/usr/bin/dsymutil /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/monkey -o /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app.dSYM0#
+
+CLd /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/monkey normal armv7
+s324152710.911639
+e324152710.944252
+r1
+xLd
+x/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/monkey
+xnormal
+xarmv7
+lSLF07#2@75"Link /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/monkey324152710#324152710#0(0"0(0#0#0"8647027680#848"    cd /Users/rmd6502/Documents/monkey    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/xcode_4.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode_4.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode_4.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/rmd6502/Documents/monkey/build/Debug-iphoneos -F/Users/rmd6502/Documents/monkey/build/Debug-iphoneos -filelist /Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/Objects-normal/armv7/monkey.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework Security -framework QuartzCore -framework AVFoundation -o /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/monkey0#
+
+CLd /Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/Objects-normal/armv6/monkey normal armv6
+r0
+
+CLd /Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/Objects-normal/armv7/monkey normal armv7
+r0
+
+CProcessInfoPlistFile /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/Info.plist monkey-Info.plist
+s324145028.279185
+e324145028.294274
+r1
+xProcessInfoPlistFile
+x/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/Info.plist
+xmonkey-Info.plist
+lSLF07#2@25"Process monkey-Info.plist324145028#324145028#0(0"0(0#0#49"/Users/rmd6502/Documents/monkey/monkey-Info.plist8639287104#530"    cd /Users/rmd6502/Documents/monkey    setenv PATH "/xcode_4.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode_4.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility monkey-Info.plist -genpkginfo /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/ResourceRules.plist -o /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/Info.plist0#
+
+CProcessPCH /var/folders/DX/DXvlE9qRER870IIsMrLY8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/monkey_Prefix-aqqukfzcgjuwwzcltqiwwbnzspln/monkey_Prefix.pch.gch monkey_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s324140277.120248
+e324140277.877676
+r1
+xProcessPCH
+x/var/folders/DX/DXvlE9qRER870IIsMrLY8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/monkey_Prefix-aqqukfzcgjuwwzcltqiwwbnzspln/monkey_Prefix.pch.gch
+xmonkey_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile monkey_Prefix.pch324140277#324140277#0(0"0(0#0#49"/Users/rmd6502/Documents/monkey/monkey_Prefix.pch8639007552#1533"    cd /Users/rmd6502/Documents/monkey    setenv LANG en_US.US-ASCII    setenv PATH "/xcode_4.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode_4.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode_4.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/monkey-generated-files.hmap -I/Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/monkey-own-target-headers.hmap -I/Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/monkey-all-target-headers.hmap -iquote /Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/monkey-project-headers.hmap -F/Users/rmd6502/Documents/monkey/build/Debug-iphoneos -I/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/include -I/Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/DerivedSources/armv7 -I/Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/DerivedSources -c /Users/rmd6502/Documents/monkey/monkey_Prefix.pch -o /var/folders/DX/DXvlE9qRER870IIsMrLY8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/monkey_Prefix-aqqukfzcgjuwwzcltqiwwbnzspln/monkey_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/DX/DXvlE9qRER870IIsMrLY8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/monkey_Prefix-djslftsgizjqiqdilercnhvmwnno/monkey_Prefix.pch.gch monkey_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessProductPackaging "/Users/rmd6502/Library/MobileDevice/Provisioning Profiles/4DF075C5-2921-42FD-ACCF-21AFB45606DC.mobileprovision" /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/embedded.mobileprovision
+s324140278.309713
+e324140278.311181
+r1
+xProcessProductPackaging
+x/Users/rmd6502/Library/MobileDevice/Provisioning Profiles/4DF075C5-2921-42FD-ACCF-21AFB45606DC.mobileprovision
+x/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/embedded.mobileprovision
+lSLF07#2@193"ProcessProductPackaging "/Users/rmd6502/Library/MobileDevice/Provisioning Profiles/4DF075C5-2921-42FD-ACCF-21AFB45606DC.mobileprovision" build/Debug-iphoneos/monkey.app/embedded.mobileprovision324140278#324140278#0(0"0(0#0#88"/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/embedded.mobileprovision8641223648#410"    cd /Users/rmd6502/Documents/monkey    setenv PATH "/xcode_4.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode_4.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/rmd6502/Library/MobileDevice/Provisioning Profiles/4DF075C5-2921-42FD-ACCF-21AFB45606DC.mobileprovision" -o /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/monkey.xcent
+s324145028.943854
+e324145028.967261
+r1
+xProcessProductPackaging
+x/xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/monkey.xcent
+lSLF07#2@172"ProcessProductPackaging /xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/monkey.build/Debug-iphoneos/monkey.build/monkey.xcent324145028#324145028#0(0"0(0#0#91"/Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/monkey.xcent8655989504#415"    cd /Users/rmd6502/Documents/monkey    setenv PATH "/xcode_4.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode_4.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /xcode_4.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/rmd6502/Documents/monkey/build/monkey.build/Debug-iphoneos/monkey.build/monkey.xcent0#
+
+CTouch /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app
+s324152711.116964
+e324152711.119375
+r1
+xTouch
+x/Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app
+lSLF07#2@69"Touch /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app324152711#324152711#0(0"0(0#0#0"8645452320#249"    cd /Users/rmd6502/Documents/monkey    setenv PATH "/xcode_4.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode_4.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/rmd6502/Documents/monkey/build/Debug-iphoneos/monkey.app0#
+
