@@ -41,10 +41,13 @@
     [super viewDidLoad];
 	CGColorSpaceRef csp = CGColorSpaceCreateDeviceRGB();
 	CGColorRef col1 = [UIColor cyanColor].CGColor;
-	CGFloat comps[5] = {0};
-	memcpy(comps, CGColorGetComponents(col1), 5 * sizeof(CGFloat));
-	comps[0] = 0.666667;
+	CGFloat comps[4] = {0};
+	memcpy(comps, CGColorGetComponents(col1), 4 * sizeof(CGFloat));
+	comps[0] = 0.75;
 	CGColorRef col2 = CGColorCreate(csp, comps);
+    comps[0] = 0;
+    for (int i=0; i < 3; ++i) comps[i] *= .7;
+    col1 = CGColorCreate(csp, comps);
 	//CGColorRef col2 = [UIColor whiteColor].CGColor;
 	const CGColorRef cols[] = {col1, col2};
 	CFArrayRef collist = CFArrayCreate(nil, (const void **)cols, sizeof(cols)/sizeof(CGColorRef), NULL);
@@ -65,6 +68,7 @@
 	CGImageRelease(bg);
 	CFRelease(collist);
 	CGColorRelease(col2);
+    CGColorRelease(col1);
 	CGGradientRelease(grad);
 	CGColorSpaceRelease(csp);
 	[self resetGame];
